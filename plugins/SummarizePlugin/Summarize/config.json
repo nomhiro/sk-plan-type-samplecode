@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "description": "与えられたテキストやテキスト文書を要約する",
+  "execution_settings": {
+    "default": {
+      "max_tokens": 512,
+      "temperature": 0.0,
+      "top_p": 0.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  "input_variables": [
+    {
+      "name": "input",
+      "description": "要約対象の文章",
+      "default": "",
+      "is_required": true
+    }
+  ]
+}
